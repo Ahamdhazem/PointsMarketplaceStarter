@@ -1,0 +1,99 @@
+{
+  "statusCode": "success",
+  "sales_point_trx_id": "fixture-conversion",
+  "message": "",
+  "data": {
+    "enabled": true,
+    "points_per_unit": 100.0,
+    "min_points": 50,
+    "monthly_cap": 0,
+    "settlement_days": 3,
+    "min_tier_id": 0,
+    "min_tier_name": "",
+    "currency": "JOD",
+    "rate_label": "100 pts = 1 JOD",
+    "points_balance": 5000,
+    "tier_rank": 4,
+    "meets_min_tier": true,
+    "meets_min_balance": true,
+    "monthly_used": 0,
+    "monthly_remaining": -1,
+    "can_convert": true,
+    "max_convertible_points": 5000,
+    "estimated_amount_for_max": 50.0,
+    "wallets": [
+      {
+        "id": 535,
+        "name": "Transfer_wallet",
+        "code": "transfer_wallet",
+        "balance": 150.0,
+        "currency": "JOD",
+        "color": "#00A63E",
+        "selected": true
+      },
+      {
+        "id": 536,
+        "name": "E-Topup",
+        "code": "e_topup",
+        "balance": 500.0,
+        "currency": "JOD",
+        "color": "#065fb1",
+        "selected": false
+      },
+      {
+        "id": 537,
+        "name": "E-Voucher",
+        "code": "e_voucher",
+        "balance": 250.0,
+        "currency": "JOD",
+        "color": "#4ddb50",
+        "selected": false
+      }
+    ],
+    "options": [
+      {
+        "id": 3,
+        "name": "Convert 100 pts \u2192 Get 1 JOD",
+        "sequence": 10,
+        "points": 100,
+        "currency_amount": 1.0,
+        "currency": "JOD",
+        "convertible": true,
+        "points_needed": 0,
+        "confirmation_title": "Confirm Conversion?",
+        "confirmation_message": "Convert 100 pts to 1 JOD and get it in 3 days"
+      },
+      {
+        "id": 4,
+        "name": "Convert 500 pts \u2192 Get 5 JOD",
+        "sequence": 20,
+        "points": 500,
+        "currency_amount": 5.0,
+        "currency": "JOD",
+        "convertible": true,
+        "points_needed": 0,
+        "confirmation_title": "Confirm Conversion?",
+        "confirmation_message": "Convert 500 pts to 5 JOD and get it in 3 days"
+      },
+      {
+        "id": 5,
+        "name": "Convert 1000 pts \u2192 Get 10 JOD",
+        "sequence": 30,
+        "points": 1000,
+        "currency_amount": 10.0,
+        "currency": "JOD",
+        "convertible": true,
+        "points_needed": 0,
+        "confirmation_title": "Confirm Conversion?",
+        "confirmation_message": "Convert 1000 pts to 10 JOD and get it in 3 days"
+      }
+    ]
+  },
+  "error": {
+    "code": "",
+    "title": "",
+    "message": "",
+    "detail": "",
+    "extra_data": {}
+  }
+}

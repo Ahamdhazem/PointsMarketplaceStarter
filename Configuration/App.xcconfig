@@ -1,0 +1,9 @@
+// Ready-to-use assessment configuration supplied by the reviewer.
+// AssessmentAuthentication obtains data.access_token using these API-ready values.
+APP_API_KEY = c2FsZXNwb2ludF9kZmdramc=
+APP_BEARER_TOKEN = 
+APP_AUTH_USERNAME = xW6ZpCBQfj2vBWBm9cvy0E8qCsDDf0FX
+APP_AUTH_PASSWORD = GdFndhbLCbR6iqKwMvU5hBCDx+Uj8/ZCCQE=
+APP_AUTH_DEVICE_TOKEN = fSAm5zbLM001vg3kqGzqwA:APA91bHvcK8M_zjux5so6hvm_zaQYP6Lh8XPh_Iu77z6pwWlww98vBiqzNxeasjbq8mUp5AjII-W0USrC4mrf5qe0RZfq74IDXsKiPcDN4FtAaQ-cGpsLFw
+// Optional local overrides; no local file is required.
+#include? "Secrets.local.xcconfig"

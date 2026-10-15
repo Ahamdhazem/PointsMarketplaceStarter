@@ -1,0 +1,13 @@
+{
+  "statusCode": "error",
+  "sales_point_trx_id": "fixture-conversion",
+  "message": "Cannot convert",
+  "data": null,
+  "error": {
+    "code": "400",
+    "title": "Cannot convert",
+    "message": "Selected conversion option is unavailable.",
+    "detail": "",
+    "extra_data": {}
+  }
+}

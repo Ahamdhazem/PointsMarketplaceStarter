@@ -1,0 +1,26 @@
+{//post respons
+  "statusCode": "success",
+  "sales_point_trx_id": "fixture-conversion",
+  "message": "",
+  "data": {
+    "redemption_id": 58,
+    "name": "REDEMP/2026/00007",
+    "state": "fulfilled",
+    "state_color": "#22C55E",
+    "points_spent": 100,
+    "currency_amount": 1.0,
+    "currency": "JOD",
+    "points_balance": 4900,
+    "option_id": 3,
+    "wallet_id": 537,
+    "wallet_name": "E-Voucher",
+    "settlement_days": 3
+  },
+  "error": {
+    "code": "",
+    "title": "",
+    "message": "",
+    "detail": "",
+    "extra_data": {}
+  }
+}

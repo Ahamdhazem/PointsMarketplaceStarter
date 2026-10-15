@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844" role="img" aria-labelledby="title">
+<title id="title">Convert Points assessment layout reference</title>
+<defs><linearGradient id="banner"><stop stop-color="#303e7c"/><stop offset="1" stop-color="#589fbf"/></linearGradient></defs>
+<rect width="390" height="844" fill="#f0f7fc"/>
+<g font-family="Poppins, Arial, sans-serif" fill="#25324a">
+<text x="25" y="32" font-size="17" font-weight="600">19:02</text>
+<circle cx="36" cy="76" r="20" fill="white" stroke="#e2eaf2"/>
+<text x="25" y="83" font-size="23" fill="#667084">‹</text>
+<text x="195" y="83" text-anchor="middle" font-size="18" font-weight="600">Convert Points</text>
+<rect x="20" y="112" width="350" height="62" rx="10" fill="url(#banner)"/>
+<text x="37" y="150" font-size="25">💳</text>
+<text x="80" y="151" font-size="20" fill="white" font-weight="600">450 Pts</text>
+<text x="263" y="151" font-size="12" fill="white">Current Point ›</text>
+<text x="20" y="205" font-size="16" font-weight="600">Select wallet</text>
+
+<rect x="20" y="220" width="350" height="57" rx="9" fill="#00716a" stroke="#acdcef" stroke-width="3"/>
+<path d="M20 222 L180 222 Q165 290 20 245" fill="white" opacity=".025"/>
+<text x="36" y="255" font-size="15" fill="white">E-Voucher</text><text x="278" y="255" text-anchor="end" font-size="16" fill="white">250.000</text><text x="286" y="255" font-size="11" fill="#d7e6ef">JOD</text><circle cx="344" cy="249" r="7" fill="none" stroke="#d7e6ef" stroke-width="2"/>
+<circle cx="344" cy="249" r="3.5" fill="#d7e6ef"/>
+<rect x="20" y="287" width="350" height="57" rx="9" fill="#006bbf" stroke="#006bbf" stroke-width="0"/>
+<path d="M20 289 L180 289 Q165 357 20 312" fill="white" opacity=".025"/>
+<text x="36" y="322" font-size="15" fill="white">E-Topup</text><text x="278" y="322" text-anchor="end" font-size="16" fill="white">500.000</text><text x="286" y="322" font-size="11" fill="#d7e6ef">JOD</text><circle cx="344" cy="316" r="7" fill="none" stroke="#d7e6ef" stroke-width="2"/>
+<rect x="20" y="354" width="350" height="57" rx="9" fill="#47566c" stroke="#47566c" stroke-width="0"/>
+<path d="M20 356 L180 356 Q165 424 20 379" fill="white" opacity=".025"/>
+<text x="36" y="389" font-size="15" fill="white">Transfer_wallet</text><text x="278" y="389" text-anchor="end" font-size="16" fill="white">150.000</text><text x="286" y="389" font-size="11" fill="#d7e6ef">JOD</text><circle cx="344" cy="383" r="7" fill="none" stroke="#d7e6ef" stroke-width="2"/>
+<text x="20" y="438" font-size="16" font-weight="600">Conversion Options</text>
+<rect x="20" y="452" width="350" height="85" rx="10" fill="#dbedf8" stroke="#a8d0f0"/>
+<circle cx="50" cy="481" r="19" fill="#f5fbff"/><text x="50" y="487" text-anchor="middle" font-size="22" fill="#0072ce">≋</text>
+<text x="80" y="479" font-size="14" fill="#25324a">Convert 100 pts → Get 1 JOD</text><text x="80" y="499" font-size="12" fill="#0086df">100 Pts</text>
+<text x="80" y="520" font-size="12" fill="#667084">Convertible</text>
+<rect x="20" y="548" width="350" height="85" rx="10" fill="white" stroke="#e3edf5"/>
+<circle cx="50" cy="577" r="19" fill="#f5fbff"/><text x="50" y="583" text-anchor="middle" font-size="22" fill="#0072ce">≋</text>
+<text x="80" y="575" font-size="14" fill="#667084">Convert 500 pts → Get 5 JOD</text><text x="80" y="595" font-size="12" fill="#0086df">500 Pts</text>
+<text x="80" y="616" font-size="12" fill="#f02b02">You need 50 more pts.</text>
+<rect x="20" y="644" width="350" height="85" rx="10" fill="white" stroke="#e3edf5"/>
+<circle cx="50" cy="673" r="19" fill="#f5fbff"/><text x="50" y="679" text-anchor="middle" font-size="22" fill="#0072ce">≋</text>
+<text x="80" y="671" font-size="14" fill="#667084">Convert 1000 pts → Get 10 JOD</text><text x="80" y="691" font-size="12" fill="#0086df">1000 Pts</text>
+<text x="80" y="712" font-size="12" fill="#f02b02">You need 550 more pts.</text>
+<rect x="20" y="772" width="350" height="48" rx="24" fill="#0072ce"/>
+<text x="195" y="802" text-anchor="middle" font-size="16" fill="white" font-weight="600">Convert</text>
+<rect x="147" y="833" width="96" height="4" rx="2" fill="#25324a"/>
+</g></svg>

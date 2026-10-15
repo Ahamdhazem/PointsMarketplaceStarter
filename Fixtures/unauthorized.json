@@ -1,0 +1,13 @@
+{
+  "statusCode": "error",
+  "sales_point_trx_id": "synthetic-authorization-transaction",
+  "message": "Authorization required",
+  "data": null,
+  "error": {
+    "code": "401",
+    "title": "Unauthorized",
+    "message": "Test credentials have expired or are invalid.",
+    "detail": "",
+    "extra_data": {}
+  }
+}
