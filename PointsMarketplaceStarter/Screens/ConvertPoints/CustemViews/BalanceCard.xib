@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="24765" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24743"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BalanceCard" customModule="PointsMarketplaceStarter" customModuleProvider="target">
+            <connections>
+                <outlet property="convertButton" destination="E2K-GH-6Uv" id="CfZ-7c-m75"/>
+                <outlet property="mainView" destination="iN0-l3-epB" id="99w-79-8U4"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="489" height="130"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="game_bg_image" translatesAutoresizingMaskIntoConstraints="NO" id="5b5-a4-EHl">
+                    <rect key="frame" x="0.0" y="0.0" width="489" height="130"/>
+                </imageView>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="0Ad-Q6-4GT">
+                    <rect key="frame" x="20" y="69.333333333333329" width="449" height="41.666666666666671"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="tvs-Gh-tq1">
+                            <rect key="frame" x="0.0" y="0.0" width="130.33333333333334" height="41.666666666666664"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OlY-Nx-hhj">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="41.666666666666664"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="current-point-icon" translatesAutoresizingMaskIntoConstraints="NO" id="yYt-eg-EA7">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="41.666666666666664"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="50" id="CQ1-74-pPT"/>
+                                                <constraint firstAttribute="width" secondItem="yYt-eg-EA7" secondAttribute="height" multiplier="6:5" id="ViF-ji-pDJ"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="yYt-eg-EA7" secondAttribute="trailing" id="Xzt-q3-TU8"/>
+                                        <constraint firstItem="yYt-eg-EA7" firstAttribute="leading" secondItem="OlY-Nx-hhj" secondAttribute="leading" id="a1t-B6-WSo"/>
+                                        <constraint firstAttribute="bottom" secondItem="yYt-eg-EA7" secondAttribute="bottom" id="qmT-VM-Fam"/>
+                                        <constraint firstItem="yYt-eg-EA7" firstAttribute="top" secondItem="OlY-Nx-hhj" secondAttribute="top" id="wQE-3Z-QAs"/>
+                                    </constraints>
+                                </view>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="450Pt" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HxI-0C-XAD">
+                                    <rect key="frame" x="71" y="0.0" width="59.333333333333343" height="41.666666666666664"/>
+                                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="19"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E2K-GH-6Uv">
+                            <rect key="frame" x="349.33333333333331" y="0.0" width="99.666666666666686" height="41.666666666666664"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Convert">
+                                <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </buttonConfiguration>
+                        </button>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="5b5-a4-EHl" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="1dA-eA-fJM"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="0Ad-Q6-4GT" secondAttribute="trailing" constant="20" id="5bg-Ji-fEy"/>
+                <constraint firstItem="5b5-a4-EHl" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="JY4-Tb-HYV"/>
+                <constraint firstAttribute="bottom" secondItem="5b5-a4-EHl" secondAttribute="bottom" id="RUo-Q4-pAc"/>
+                <constraint firstItem="0Ad-Q6-4GT" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="Sgq-hj-lUZ"/>
+                <constraint firstItem="5b5-a4-EHl" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Z7t-lM-6Q4"/>
+                <constraint firstItem="0Ad-Q6-4GT" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="vSA-Bu-HDD"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-109.16030534351144" y="105.63380281690141"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="current-point-icon" width="36" height="29"/>
+        <image name="game_bg_image" width="319" height="53"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

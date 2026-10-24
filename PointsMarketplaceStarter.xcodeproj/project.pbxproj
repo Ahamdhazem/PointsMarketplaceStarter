@@ -20,6 +20,7 @@
 		708D28C52059A5B3B50E8647 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E6780D9BE780D524E569BC /* AppDelegate.swift */; };
 		815606222B5752F25BE1FC87 /* Fixtures in Resources */ = {isa = PBXBuildFile; fileRef = 1FA3064A37D9AA08505579F1 /* Fixtures */; };
 		918732AC30812C560018FAC2 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 918732AB30812C560018FAC2 /* Alamofire */; };
+		91B87834308BAF55009B186A /* RxGesture in Frameworks */ = {isa = PBXBuildFile; productRef = 91B87833308BAF55009B186A /* RxGesture */; };
 		9D4A4CC2081A19943DB1A5BE /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7852A413DBD9D5026F4AC9E0 /* Rubik-Regular.ttf */; };
 		A2800BADF1C026F2C18760CB /* StarterResourcesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32A7E340D9C788E810CEA68 /* StarterResourcesTests.swift */; };
 		B14BF9F1B60B7FA3ABD01666 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA9856EE0CF2692CFCE25C24 /* Poppins-Medium.ttf */; };
@@ -41,6 +42,19 @@
 			remoteInfo = PointsMarketplaceStarter;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		91B87831308BAE23009B186A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		12623FA095E9C2EB9E6827D8 /* Design */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = Design; sourceTree = "<group>"; };
@@ -70,22 +84,8 @@
 		FE89898CCF58DBF9B360C63E /* PointsMarketplaceStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PointsMarketplaceStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		918732353081166E0018FAC2 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Model/WalletData.swift,
-				View/WalletCell.swift,
-				View/WalletCell.xib,
-			);
-			target = F0D4BD12167C3840E411F4AE /* PointsMarketplaceStarter */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		9187322B308115EE0018FAC2 /* WalletCell */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (918732353081166E0018FAC2 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = WalletCell; sourceTree = "<group>"; };
-		918732A3308126ED0018FAC2 /* ConversionCell */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ConversionCell; sourceTree = "<group>"; };
-		91EFE5783080EE0F000D2037 /* ConvertPoints */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ConvertPoints; sourceTree = "<group>"; };
+		91BE7199308A465800C297B2 /* Screens */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Screens; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +98,7 @@
 				45AAB39C476245324E60FD99 /* RxSwift in Frameworks */,
 				30BE77D32B40781B246CA8AB /* RxCocoa in Frameworks */,
 				C5184D3FCB5CC6327B4A3672 /* RxRelay in Frameworks */,
+				91B87834308BAF55009B186A /* RxGesture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,9 +124,7 @@
 		065CF3A59205887755AA55F5 /* PointsMarketplaceStarter */ = {
 			isa = PBXGroup;
 			children = (
-				918732A3308126ED0018FAC2 /* ConversionCell */,
-				9187322B308115EE0018FAC2 /* WalletCell */,
-				91EFE5783080EE0F000D2037 /* ConvertPoints */,
+				91BE7199308A465800C297B2 /* Screens */,
 				C25B7901FDE5CE3599F51CB7 /* APIConfiguration.swift */,
 				39E6780D9BE780D524E569BC /* AppDelegate.swift */,
 				222327B59D5040249B23CFC1 /* ConversionConfigAPI.swift */,
@@ -230,14 +229,14 @@
 				A1F5F60ECE6D7E6EE19E93DE /* Sources */,
 				0AEB92323B471785BEC996A6 /* Frameworks */,
 				4F39854964C9EBE9750F15F7 /* Resources */,
+				91B87831308BAE23009B186A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				918732A3308126ED0018FAC2 /* ConversionCell */,
-				91EFE5783080EE0F000D2037 /* ConvertPoints */,
+				91BE7199308A465800C297B2 /* Screens */,
 			);
 			name = PointsMarketplaceStarter;
 			packageProductDependencies = (
@@ -245,6 +244,7 @@
 				7AB91C5F5F6D0B83B5528ACF /* RxCocoa */,
 				5EE934D98F75B156E7F62370 /* RxRelay */,
 				918732AB30812C560018FAC2 /* Alamofire */,
+				91B87833308BAF55009B186A /* RxGesture */,
 			);
 			productName = PointsMarketplaceStarter;
 			productReference = FE89898CCF58DBF9B360C63E /* PointsMarketplaceStarter.app */;
@@ -271,6 +271,7 @@
 			packageReferences = (
 				0B82CFC3D450842CCD0FCCD4 /* XCRemoteSwiftPackageReference "RxSwift" */,
 				918732AA30812C0F0018FAC2 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				91B87832308BAF13009B186A /* XCRemoteSwiftPackageReference "RxGesture" */,
 			);
 			productRefGroup = CA750376760B3E39DBADB8D8 /* Products */;
 			projectDirPath = "";
@@ -611,6 +612,14 @@
 				minimumVersion = 5.12.2;
 			};
 		};
+		91B87832308BAF13009B186A /* XCRemoteSwiftPackageReference "RxGesture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxGesture?utm_source=chatgpt.com";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.4;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -628,6 +637,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 918732AA30812C0F0018FAC2 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		91B87833308BAF55009B186A /* RxGesture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 91B87832308BAF13009B186A /* XCRemoteSwiftPackageReference "RxGesture" */;
+			productName = RxGesture;
 		};
 		C5B0745D52B9B1F90470D8D0 /* RxSwift */ = {
 			isa = XCSwiftPackageProductDependency;

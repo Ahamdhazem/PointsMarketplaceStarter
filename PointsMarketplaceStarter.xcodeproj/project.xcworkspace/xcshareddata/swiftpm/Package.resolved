@@ -1,5 +1,5 @@
 {
-  "originHash" : "5f82bdeeb802678ca152edb9072940ba2329ff758050eb64094cba5f74c36639",
+  "originHash" : "dd805c4c6d848a1af82bfc398536aeaf813f694290c1f62eab4ea31143fb86f0",
   "pins" : [
     {
       "identity" : "alamofire",
@@ -8,6 +8,15 @@
       "state" : {
         "revision" : "bda9ed57d72988a3a2ada33d824583541f86eac6",
         "version" : "5.12.2"
+      }
+    },
+    {
+      "identity" : "rxgesture?utm_source=chatgpt.com",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/RxSwiftCommunity/RxGesture?utm_source=chatgpt.com",
+      "state" : {
+        "revision" : "1b137c576b4aaaab949235752278956697c9e4a0",
+        "version" : "4.0.4"
       }
     },
     {
